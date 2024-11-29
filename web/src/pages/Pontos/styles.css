@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  .nav-menu {
+    flex-wrap: nowrap; /* Força o menu a ficar em linha */
+  }
+
+  .nav-menu a {
+    font-size: 18px;
+  }
+}
+
+
+
+
+.rewards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.points-bar {
+  margin: 30px 0;
+  position: relative;
+}
+
+.progress-line {
+  position: absolute;
+  top: 50%;
+  height: 10px;
+  z-index: 0;
+}
+
+.progress-completed {
+  left: 0;
+  width: 60%; 
+  background-color: #d6b0e3;
+}
+
+.progress-upcoming {
+  left: 60%; 
+  width: 40%;
+  background-color: #e0e0e0;
+}
+
+.point-levels {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.point-item {
+  position: relative;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.completed {
+  background-color: #d6b0e3;
+  color: white;
+  font-family: Poppins;
+}
+
+.upcoming {
+  background-color: #e0e0e0;
+  color: #999;
+  font-family: Poppins;
+}
+
+.rewards {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  margin-top: 50px;
+}
+
+.reward-item {
+  margin: 10px 0; 
+}
+
+.reward-item img {
+  width: 280px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .reward-item img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rewards {
+    flex-direction: row; /* Alinhar imagens lado a lado em telas maiores */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .reward-item img {
+    width: 770px;
+    height: 320px;
+  }
+}
+
+.footer {
+  background-color: #d6b0e3;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-section {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,95 @@
+/* Estilos Gerais */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Pricing Container */
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards fiquem em colunas no mobile */
+  justify-content: center;
+  gap: 20px; /* Espaço entre os cards */
+  margin: 20px;
+}
+
+.pricing-card {
+  background-color: #d0b3e0a8;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%; /* Ajusta a largura para ocupar o espaço disponível */
+  max-width: 500px; /* Limita o tamanho em telas maiores */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  min-height: 500px;
+  margin-top: 50px;
+}
+
+.pricing-card h2 {
+  color: #58305A;
+  margin-bottom: 10px;
+  font-size: 24px; /* Reduzido para telas menores */
+}
+
+.pricing-card p {
+  margin: 10px 0;
+  font-size: 16px; /* Ajuste para melhor leitura no mobile */
+  line-height: 1.5; /* Melhor espaçamento entre linhas */
+}
+
+/* Footer */
+.footer {
+  background-color: #D0B3E0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Permite a quebra em dispositivos menores */
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre as seções */
+}
+
+.footer-section {
+  max-width: 300px;
+  text-align: center;
+}
+
+.footer-section h3,
+.footer-section h2 {
+  font-size: 18px; /* Reduzido para melhor proporção no mobile */
+}
+
+.footer-section p,
+.footer-section li {
+  font-size: 14px; /* Melhor leitura em telas pequenas */
+}
+
+.footer-bottom {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  font-size: 0.8em;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .pricing-container {
+    gap: 80px;
+  }
+
+  .pricing-card {
+    width: 45%; /* Ajusta para duas colunas em tablets */
+  }
+
+  .footer-content {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pricing-card {
+    width: 500px; /* Mantém tamanho fixo em telas grandes */
+  }
+}
