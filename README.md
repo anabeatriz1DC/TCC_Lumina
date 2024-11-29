@@ -12,9 +12,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Tarefa 1: desenvolver a identidade visual da empresa
 - [x] Tarefa 2: realizar o levantamento de requisitos do projeto
-- [x] Tarefa 3: ...
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Tarefa 3: iniciar o código
+- [x] Tarefa 4: testes de projeto
+- [x] Tarefa 5: projeto final
 
 ## 💻 Pré-requisitos
 
@@ -28,15 +28,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o projeto iniciar a biblioteca do React e/ou descompactar as pastas
 
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
 ## 🤝 Time SCRUM
 
@@ -46,7 +37,7 @@ Aqui está a equipe que desenvolveu este projeto:
   <tr>
       <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto da Amanda Ramos no GitHub"/><br>
+        <img src="amanda.jpeg" width="100px;" alt="Foto da Amanda Ramos no GitHub"/><br>
         <sub>
           <b>Amanda Ramos</b>
         </sub>
@@ -54,7 +45,7 @@ Aqui está a equipe que desenvolveu este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto da Ana Peron no GitHub"/><br>
+        <img src="peron.png" width="100px;" alt="Foto da Ana Peron no GitHub"/><br>
         <sub>
           <b>Ana Peron</b>
         </sub>
@@ -62,7 +53,7 @@ Aqui está a equipe que desenvolveu este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto da Julia Barbosa"/><br>
+        <img src="julia.jpeg" width="100px;" alt="Foto da Julia Barbosa"/><br>
         <sub>
           <b>Julia Barbosa</b>
         </sub>
@@ -70,7 +61,7 @@ Aqui está a equipe que desenvolveu este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto da Giovanna Oliveira"/><br>
+        <img src="giovanna.jpeg" width="100px;" alt="Foto da Giovanna Oliveira"/><br>
         <sub>
           <b>Giovanna Oliveira</b>
         </sub>
