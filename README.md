@@ -2,7 +2,7 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui, baseado no repositorio do "iuricode"--->
 
-<img src="https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png" width="600px;" alt="exemplo imagem">
+<img src="web/logo04.png" width="600px;" alt="exemplo imagem">
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
